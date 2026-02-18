@@ -19,7 +19,7 @@ class Validator:
     def is_region_valid(self):
         num_colors = len(self.color_regions)
         if num_colors != self.n:
-            raise ValueError(f"Jumlah warna tidak sams dengan ukuran papan, \nPapan = {self.n}) \nWarna = {num_colors}")
+            raise ValueError(f"Jumlah warna tidak sams dengan ukuran papan, \nPapan = {self.n} \nWarna = {num_colors}")
         
     def is_valid(self, permutation):   
         if not self.check_color_cinstraints(permutation):

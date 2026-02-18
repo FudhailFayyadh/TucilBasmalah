@@ -42,8 +42,6 @@ class BoardReader:
         
         if row_lengths[0] != self.n:
             raise ValueError("Panjang baris tidak sesuai dengan ukuran papan")
-        
-        print("board valid")
     
     def get_board(self):
         return self.board

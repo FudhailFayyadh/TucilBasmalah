@@ -51,6 +51,7 @@ def main():
         visual = Visual(board)
         queen_solver = QueenSolver(board)
         validator.is_region_valid()
+        print("board valid")
 
         print("\n Papan yang dimuat:")
         visual.display_board()
